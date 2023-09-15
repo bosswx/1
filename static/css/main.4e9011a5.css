@@ -1,0 +1,88 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+.App {
+  text-align: center;
+}
+.img {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.copy-btn {
+  background: transparent;
+  border: 0;
+  height: 5rem;
+  position: fixed;
+  right: 10px;
+  top: 30vh;
+  width: 5rem;
+  z-index: 1000;
+}
+.copy-btn > img {
+  -webkit-animation: heartbeat 1.2s linear 1s infinite;
+  animation: heartbeat 1.2s linear 1s infinite;
+  height: 3rem;
+  width: 3rem;
+}
+.copy-btn > button {
+  background: transparent;
+  border: 0;
+  height: 100%;
+  padding: 0.5rem 2.5rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/*# sourceMappingURL=main.4e9011a5.css.map*/
